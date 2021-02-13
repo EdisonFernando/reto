@@ -12,16 +12,9 @@ public class ChoucairJoin3Page {
             By.xpath("//div[@class='row second']//div[@class='ui-select-box']//div[@name='handsetMakerId']"
             )
     );
-    /*public static final Target CITY=Target.the("city of residence").located(By.id("city"));
-    public static final Target P_CODE=Target.the("post code").located(By.id("zip"));
-    public static final Target COUNTRY=Target.the("country").located(By.id("focusser-2"));
-    public static final Target S_COUNTRY=Target.the("select country").located(
-            By.xpath("//input[@class='form-control ui-select-search ng-pristine ng-valid ng-empty ng-touched']"
-            )
-    );
 
     public static final Target BUTTON_NEXT=Target.the("button for next step").located(
             By.xpath("//div[@class='pull-right next-step']//a[@class='btn btn-blue pull-right']"
             )
-    );*/
+    );
 }
