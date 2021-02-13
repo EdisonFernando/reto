@@ -7,10 +7,7 @@ import cucumber.api.java.en.When;
 import model.RetoChoucairData;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import tasks.Devices;
-import tasks.Join;
-import tasks.Location;
-import tasks.OpenUp;
+import tasks.*;
 
 import java.util.List;
 
@@ -48,13 +45,7 @@ public class ChoucairRetoStepDefinitions {
 
     @When("^click on the last step, she needs to create the password and accept the code of conduct and privacy$")
     public void clickOnTheLastStepSheNeedsToCreateThePasswordAndAcceptTheCodeOfConductAndPrivacy(List<RetoChoucairData> retoChoucairData) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        // For automatic transformation, change DataTable to one of
-        // List<YourType>, List<List<E>>, List<Map<K,V>> or Map<K,V>.
-        // E,K,V must be a scalar (String, Integer, Date, enum etc).
-        // Field names for YourType must match the column names in
-        // your feature file (except for spaces and capitalization).
-        //throw new PendingException();
+        OnStage.theActorInTheSpotlight().attemptsTo(LastStep.the(retoChoucairData.get(0).getPassword(),retoChoucairData.get(0).getcPassword()));
     }
 
     @Then("^she go to click on complete setup and finish$")
