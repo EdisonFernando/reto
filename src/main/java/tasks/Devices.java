@@ -40,7 +40,7 @@ public class Devices implements Task {
         actor.attemptsTo(Click.on(ChoucairJoin3Page.I_MOVIL),
                 //SelectFromOptions.byValue(movil).from(ChoucairJoin3Page.I_MOVIL)
                 //Hit.the(Keys.ARROW_DOWN).keyIn(ChoucairJoin3Page.I_MOVIL)
-                Enter.theValue(movil).into(ChoucairJoin3Page.II_MOVIL)
+                //Enter.theValue(movil).into(ChoucairJoin3Page.II_MOVIL),
                 //Enter.theValue(fName).into(ChoucairJoin1Page.F_NAME),
                 //Enter.theValue(lName).into(ChoucairJoin1Page.L_NAME),
                 //Enter.theValue(emailA).into(ChoucairJoin1Page.E_MAIL),
@@ -55,7 +55,7 @@ public class Devices implements Task {
                 //SelectFromOptions.byValue(dY).from(ChoucairJoin1Page.B_YEAR),
                 //Click.on(ChoucairJoin1Page.B_YEAR),
                 //Enter.theValue(dY).into(ChoucairJoin1Page.B_YEAR)
-                //Click.on(ChoucairJoin1Page.BUTTON_NEXT)
+                Click.on(ChoucairJoin3Page.BUTTON_NEXT)
         );
     }
 }
