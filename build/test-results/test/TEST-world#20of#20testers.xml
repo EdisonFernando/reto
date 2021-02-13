@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="world of testers" tests="1" skipped="0" failures="1" errors="0" timestamp="2021-02-13T22:12:00" hostname="LAPTOP-3P80HCBP" time="46.687">
+  <properties/>
+  <testcase name="join to the largest community of testers in the world" classname="world of testers" time="46.687">
+    <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=88.0.4324.150)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-3P80HCBP', ip: '192.168.20.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\EDISON~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: c11cba3f6ae0402165e52735973b507f" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3P80HCBP', ip: '192.168.20.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\EDISON~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c11cba3f6ae0402165e52735973b507f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at net.serenitybdd.core.pages.ClearContents.lambda$static$0(ClearContents.java:16)
+	at net.serenitybdd.core.pages.ClearContents.ofElement(ClearContents.java:31)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.clear(WebElementFacadeImpl.java:1261)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.type(WebElementFacadeImpl.java:812)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget.performAs(EnterValueIntoTarget.java:18)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$0UoDuqnJ.performAs$accessor$lE2GKgHH(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoTarget$ByteBuddy$0UoDuqnJ.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at tasks.Devices.performAs(Devices.java:40)
+	at tasks.Devices$ByteBuddy$NZSHCWjR.performAs$accessor$hzNjI407(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:471)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:451)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:424)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:180)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:167)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:75)
+	at tasks.Devices$ByteBuddy$NZSHCWjR.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:233)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:214)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:171)
+	at co.com.choucair.reto.stepdefinitions.ChoucairRetoStepDefinitions.clickOnNextDevicesSheNeedsToTalkAboutHerDevices(ChoucairRetoStepDefinitions.java:46)
+	at ✽.click on next devices, she needs to talk about her devices(src/test/resources/features/retoChoucair.feature:13)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@38e9ddc4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@31ec4094
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@639ccba
+feb. 13, 2021 5:12:02 P. M. org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+Starting ChromeDriver 88.0.4324.96 (68dba2d8a0b149a1d3afac56fa74648032bcf46b-refs/branch-heads/4324@{#1784}) on port 9582
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+feb. 13, 2021 5:12:06 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7e924265
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1e0ae8a5
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2fb21eca
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3440a8e9
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1e614650
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@13c7415e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@56b6e4f2
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5ef36667
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@63388495
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@fb25e1
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@254bb17a
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@31cc6c10
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@29b8f5f4
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@2e811b58
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@3092145d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code, Estefania clicks on button for next step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code, Estefania clicks on button for next step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code, Estefania clicks on button for next step]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5ebe0b13
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5e74ce0e
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@7ccbfcda
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepFinished: current outcome:join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code, Estefania clicks on button for next step]], When click on next devices, she needs to talk about her devices
+| pc | version | language | movil | model | os |
+| Windows | 10 | Spanish | Samsung | Galaxy A | android | [Estefania devices [Estefania clicks on select movil]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@1d6dc957
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@5ef12e5d
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@22862237
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code, Estefania clicks on button for next step]], When click on next devices, she needs to talk about her devices
+| pc | version | language | movil | model | os |
+| Windows | 10 | Spanish | Samsung | Galaxy A | android | [Estefania devices [Estefania clicks on select movil, Estefania enters 'Samsung' into select movil]], When click on the last step, she needs to create the password and accept the code of conduct and privacy
+| password | cPassword |
+| fer_90Utest | fer_90Utest |, Then she go to click on complete setup and finish
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code, Estefania clicks on button for next step]], When click on next devices, she needs to talk about her devices
+| pc | version | language | movil | model | os |
+| Windows | 10 | Spanish | Samsung | Galaxy A | android | [Estefania devices [Estefania clicks on select movil, Estefania enters 'Samsung' into select movil]], When click on the last step, she needs to create the password and accept the code of conduct and privacy
+| password | cPassword |
+| fer_90Utest | fer_90Utest |, Then she go to click on complete setup and finish]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [join to the largest community of testers in the world:Given than Estefania wants to join and she talks about
+| fName | lName | emailA | dM | dD | dY |
+| Edison Fernando | Aza Casanova | ediferaza90@gmail.com | 7 | 13 | 1990 | [Estefania open up [Estefania opens the Choucair reto page], Estefania join [Estefania clicks on button for join today, Estefania enters 'Edison Fernando' into first name, Estefania enters 'Aza Casanova' into last name, Estefania enters 'ediferaza90@gmail.com' into email, Estefania selects number:7 in month, Estefania selects number:13 in day, Estefania selects number:1990 in year, Estefania clicks on button for next step]], When click on next, she need to add her address
+| city | pCode | country |
+| Medellín, Medellin, Antioquia, Colombia | 57 | Colombia | [Estefania location [Estefania enters 'Medellín, Medellin, Antioquia, Colombia' into city of residence, Estefania types 'ARROW_DOWN' in city of residence, Estefania enters '57' into post code, Estefania clicks on button for next step]], When click on next devices, she needs to talk about her devices
+| pc | version | language | movil | model | os |
+| Windows | 10 | Spanish | Samsung | Galaxy A | android | [Estefania devices [Estefania clicks on select movil, Estefania enters 'Samsung' into select movil]], When click on the last step, she needs to create the password and accept the code of conduct and privacy
+| password | cPassword |
+| fer_90Utest | fer_90Utest |, Then she go to click on complete setup and finish]
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: join to the largest community of testers in the world
+---------------------------------------------------------------------
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Estefania enters 'Samsung' into select movil
+[Test worker] ERROR net.thucydides.core.steps.ConsoleLoggingListener - element not interactable
+]]></system-err>
+</testsuite>

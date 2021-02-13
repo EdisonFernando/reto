@@ -1,0 +1,18 @@
+tasks/OpenUp.java
+ tasks.OpenUp
+userinterface/ChoucairRetoPage.java
+ userinterface.ChoucairRetoPage
+model/RetoChoucairData.java
+ model.RetoChoucairData
+tasks/Join.java
+ tasks.Join
+userinterface/ChoucairJoin1Page.java
+ userinterface.ChoucairJoin1Page
+userinterface/ChoucairJoin2Page.java
+ userinterface.ChoucairJoin2Page
+tasks/Location.java
+ tasks.Location
+userinterface/ChoucairJoin3Page.java
+ userinterface.ChoucairJoin3Page
+tasks/Devices.java
+ tasks.Devices
